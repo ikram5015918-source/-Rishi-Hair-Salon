@@ -1,0 +1,782 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Rishi Hair Salon - Best barber in Lahore. Premium men's grooming, fade haircuts, beard styling, keratin treatments in Gulberg III. Rated 4.5⭐ with 148+ reviews. Book now!">
+    <meta name="keywords" content="best barber in Lahore, men's hair salon Lahore, fade haircut Lahore, beard grooming Lahore, keratin treatment Lahore, Rishi Hair Salon, Gulberg barber, رشی ہیئر سلون">
+    <meta name="author" content="Rishi Hair Salon">
+    <meta name="robots" content="index, follow">
+    <meta property="og:title" content="Rishi Hair Salon - Premium Men's Grooming in Lahore">
+    <meta property="og:description" content="Precision haircuts by professional artists. Serving Lahore since 2017. Book your appointment today!">
+    <meta property="og:image" content="https://iili.io/BiUhv0F.png">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="en_US">
+    <link rel="canonical" href="https://rishihairsalon.com/">
+    <title>Rishi Hair Salon | Best Barber in Lahore - Men's Grooming & Fade Haircuts</title>
+
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com">
+    </script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        gold: '#D4AF37',
+                        'gold-light': '#E8C547',
+                        'gold-dark': '#B8941F',
+                        'black-rich': '#0A0A0A',
+                        'black-soft': '#111111',
+                        'dark-surface': '#1A1A1A',
+                        'dark-elevated': '#242424',
+                        'dark-border': '#2E2E2E',
+                        'grey-warm': '#3A3A3A',
+                    },
+                    fontFamily: {
+                        'display': ['"Playfair Display"', 'serif'],
+                        'heading': ['Oswald', 'sans-serif'],
+                        'body': ['Inter', 'sans-serif'],
+                    },
+                    animation: {
+                        'fade-in': 'fadeIn 0.8s ease-out',
+                        'slide-up': 'slideUp 0.6s ease-out',
+                        'slide-in-right': 'slideInRight 0.5s ease-out',
+                        'pulse-gold': 'pulseGold 2s infinite',
+                        'float': 'float 3s ease-in-out infinite',
+                    },
+                    keyframes: {
+                        fadeIn: {
+                            '0%': { opacity: '0' },
+                            '100%': { opacity: '1' },
+                        },
+                        slideUp: {
+                            '0%': { opacity: '0', transform: 'translateY(30px)' },
+                            '100%': { opacity: '1', transform: 'translateY(0)' },
+                        },
+                        slideInRight: {
+                            '0%': { opacity: '0', transform: 'translateX(40px)' },
+                            '100%': { opacity: '1', transform: 'translateX(0)' },
+                        },
+                        pulseGold: {
+                            '0%, 100%': { boxShadow: '0 0 0 0 rgba(212, 175, 55, 0.5)' },
+                            '50%': { boxShadow: '0 0 0 20px rgba(212, 175, 55, 0)' },
+                        },
+                        float: {
+                            '0%, 100%': { transform: 'translateY(0)' },
+                            '50%': { transform: 'translateY(-10px)' },
+                        },
+                    },
+                },
+            },
+        }
+    </script>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Oswald:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <!-- Custom Styles -->
+    <style>
+        :root {
+            --gold: #D4AF37;
+            --gold-light: #E8C547;
+            --gold-dark: #B8941F;
+            --black-rich: #0A0A0A;
+        }
+
+        * {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            background-color: #0A0A0A;
+            font-family: 'Inter', sans-serif;
+            color: #E0E0E0;
+            overflow-x: hidden;
+        }
+
+        .text-gold-gradient {
+            background: linear-gradient(135deg, #E8C547 0%, #D4AF37 30%, #B8941F 70%, #D4AF37 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .border-gold-glow {
+            border-color: #D4AF37;
+            box-shadow: 0 0 15px rgba(212, 175, 55, 0.2), inset 0 0 15px rgba(212, 175, 55, 0.05);
+        }
+
+        .btn-gold {
+            background: linear-gradient(135deg, #D4AF37 0%, #B8941F 100%);
+            color: #0A0A0A;
+            font-weight: 700;
+            border: none;
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
+        .btn-gold:hover {
+            background: linear-gradient(135deg, #E8C547 0%, #D4AF37 100%);
+            transform: translateY(-2px);
+            box-shadow: 0 10px 30px rgba(212, 175, 55, 0.4);
+        }
+        .btn-gold:active {
+            transform: translateY(0);
+        }
+
+        .btn-outline-gold {
+            background: transparent;
+            color: #D4AF37;
+            border: 2px solid #D4AF37;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+        .btn-outline-gold:hover {
+            background: #D4AF37;
+            color: #0A0A0A;
+            box-shadow: 0 10px 30px rgba(212, 175, 55, 0.35);
+            transform: translateY(-2px);
+        }
+
+        .card-premium {
+            background: #1A1A1A;
+            border: 1px solid #2E2E2E;
+            transition: all 0.4s ease;
+        }
+        .card-premium:hover {
+            border-color: #D4AF37;
+            box-shadow: 0 15px 40px rgba(212, 175, 55, 0.15);
+            transform: translateY(-5px);
+        }
+
+        .hero-overlay {
+            background: linear-gradient(
+                180deg,
+                rgba(10, 10, 10, 0.3) 0%,
+                rgba(10, 10, 10, 0.6) 50%,
+                rgba(10, 10, 10, 0.95) 100%
+            ),
+            linear-gradient(90deg, rgba(10, 10, 10, 0.85) 0%, rgba(10, 10, 10, 0.4) 50%, rgba(10, 10, 10, 0.7) 100%);
+        }
+
+        .section-divider {
+            height: 1px;
+            background: linear-gradient(90deg, transparent, #D4AF37, transparent);
+            opacity: 0.4;
+        }
+
+        .star-gold {
+            color: #D4AF37;
+            text-shadow: 0 0 8px rgba(212, 175, 55, 0.6);
+        }
+
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #0A0A0A;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #2E2E2E;
+            border-radius: 4px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #D4AF37;
+        }
+
+        /* Mobile bottom bar - only WhatsApp now */
+        .mobile-sticky-bar {
+            display: none;
+        }
+        @media (max-width: 768px) {
+            .mobile-sticky-bar {
+                display: flex;
+                position: fixed;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                z-index: 999;
+                background: #0A0A0A;
+                border-top: 1px solid #2E2E2E;
+                padding: 8px 12px;
+                justify-content: center;
+            }
+        }
+
+        #chatbot-window {
+            transition: all 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        #chatbot-window.hidden {
+            opacity: 0;
+            transform: translateY(20px) scale(0.95);
+            pointer-events: none;
+            visibility: hidden;
+        }
+        #chatbot-window.visible {
+            opacity: 1;
+            transform: translateY(0) scale(1);
+            pointer-events: all;
+            visibility: visible;
+        }
+
+        #loyalty-popup {
+            transition: all 0.4s ease;
+        }
+        #loyalty-popup.hidden {
+            opacity: 0;
+            pointer-events: none;
+            visibility: hidden;
+        }
+        #loyalty-popup.visible {
+            opacity: 1;
+            pointer-events: all;
+            visibility: visible;
+        }
+
+        .ripple {
+            position: relative;
+            overflow: hidden;
+        }
+        .ripple::after {
+            content: '';
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            pointer-events: none;
+            background-image: radial-gradient(circle, rgba(212, 175, 55, 0.4) 10%, transparent 10.01%);
+            background-repeat: no-repeat;
+            background-position: 50%;
+            transform: scale(10, 10);
+            opacity: 0;
+            transition: transform 0.5s, opacity 1s;
+        }
+        .ripple:active::after {
+            transform: scale(0, 0);
+            opacity: 0.3;
+            transition: 0s;
+        }
+
+        .service-icon {
+            text-shadow: 0 0 20px rgba(212, 175, 55, 0.5);
+        }
+    </style>
+</head>
+<body class="bg-black-rich">
+
+    <!-- LOYALTY POPUP unchanged -->
+    <div id="loyalty-popup" class="hidden fixed inset-0 z-[9999] flex items-center justify-center p-4" style="background: rgba(10,10,10,0.85); backdrop-filter: blur(8px);">
+        <div class="bg-dark-surface border-2 border-gold rounded-2xl p-8 max-w-md w-full text-center relative animate-fade-in shadow-2xl" style="box-shadow: 0 25px 60px rgba(212,175,55,0.25);">
+            <button onclick="closeLoyaltyPopup()" class="absolute top-3 right-3 text-gray-400 hover:text-gold text-2xl transition-colors">&times;</button>
+            <div class="text-5xl mb-4">💈</div>
+            <h3 class="font-display text-2xl font-bold text-gold mb-2">Loyalty Reward! 🎁</h3>
+            <p class="text-gray-300 mb-2 text-lg">Get <span class="text-gold-light font-bold">10% OFF</span></p>
+            <p class="text-gray-400 mb-6">on your next haircut when you book today!</p>
+            <div class="bg-dark-elevated rounded-lg p-3 mb-6 border border-dark-border">
+                <p class="text-gold font-mono font-bold text-xl tracking-wider">LOYAL10</p>
+                <p class="text-xs text-gray-500 mt-1">Mention this code when booking</p>
+            </div>
+            <button onclick="closeLoyaltyPopup(); document.getElementById('booking-section').scrollIntoView({behavior:'smooth'});" class="btn-gold px-8 py-3 rounded-full text-lg w-full ripple">
+                Book Now & Save 10%
+            </button>
+            <p class="text-xs text-gray-500 mt-3">Offer valid for returning customers</p>
+        </div>
+    </div>
+
+    <!-- NAVIGATION unchanged -->
+    <nav class="fixed top-0 left-0 right-0 z-[1000] transition-all duration-400" id="main-nav" style="background: rgba(10,10,10,0.9); backdrop-filter: blur(20px); border-bottom: 1px solid rgba(212,175,55,0.2);">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-16 md:h-20">
+                <a href="#" class="flex items-center gap-3 group">
+                    <span class="text-3xl">💈</span>
+                    <div>
+                        <h1 class="font-display text-xl md:text-2xl font-bold text-gold leading-tight">Rishi Hair Salon</h1>
+                        <p class="text-xs text-gray-400 font-body tracking-wider">رشی ہیئر سلون</p>
+                    </div>
+                </a>
+                <div class="hidden md:flex items-center gap-8 font-heading text-sm tracking-widest uppercase">
+                    <a href="#home" class="text-gray-300 hover:text-gold transition-colors">Home</a>
+                    <a href="#services-section" class="text-gray-300 hover:text-gold transition-colors">Services</a>
+                    <a href="#brand-section" class="text-gray-300 hover:text-gold transition-colors">Our Artists</a>
+                    <a href="#reviews-section" class="text-gray-300 hover:text-gold transition-colors">Reviews</a>
+                    <a href="#booking-section" class="btn-gold px-5 py-2 rounded-full text-sm tracking-wider ripple">
+                        Book Now
+                    </a>
+                </div>
+                <button id="mobile-menu-btn" class="md:hidden text-gold text-2xl focus:outline-none" onclick="toggleMobileMenu()">
+                    <span id="menu-icon">☰</span>
+                </button>
+            </div>
+            <div id="mobile-menu" class="hidden md:hidden pb-4 font-heading text-sm tracking-widest uppercase space-y-3">
+                <a href="#home" class="block text-gray-300 hover:text-gold py-2 transition-colors" onclick="toggleMobileMenu()">Home</a>
+                <a href="#services-section" class="block text-gray-300 hover:text-gold py-2 transition-colors" onclick="toggleMobileMenu()">Services</a>
+                <a href="#brand-section" class="block text-gray-300 hover:text-gold py-2 transition-colors" onclick="toggleMobileMenu()">Our Artists</a>
+                <a href="#reviews-section" class="block text-gray-300 hover:text-gold py-2 transition-colors" onclick="toggleMobileMenu()">Reviews</a>
+                <a href="#booking-section" class="btn-gold block text-center px-5 py-3 rounded-full text-sm" onclick="toggleMobileMenu()">Book Now</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HERO SECTION unchanged -->
+    <section id="home" class="relative min-h-screen flex items-center justify-center overflow-hidden pt-16 md:pt-20">
+        <div class="absolute inset-0 z-0">
+            <img src="https://iili.io/BiUhv0F.png" alt="Barber styling hair" class="w-full h-full object-cover object-center opacity-50" loading="eager">
+            <div class="absolute inset-0 hero-overlay"></div>
+        </div>
+        <div class="absolute top-32 right-8 md:right-20 w-48 h-48 md:w-64 md:h-64 rounded-2xl overflow-hidden border-2 border-gold opacity-40 hidden md:block animate-float z-10" style="box-shadow: 0 20px 50px rgba(212,175,55,0.3);">
+            <img src="https://iili.io/BiUhNWB.png" alt="Haircut result" class="w-full h-full object-cover">
+        </div>
+        <div class="absolute bottom-24 left-6 md:left-16 w-40 h-40 md:w-56 md:h-56 rounded-2xl overflow-hidden border-2 border-gold-light opacity-30 hidden md:block animate-float z-10" style="animation-delay: 1.5s; box-shadow: 0 20px 50px rgba(212,175,55,0.25);">
+            <img src="https://iili.io/BiUhkf1.png" alt="Beard grooming" class="w-full h-full object-cover">
+        </div>
+        <div class="relative z-20 text-center px-4 max-w-4xl mx-auto animate-fade-in">
+            <div class="inline-block mb-4 px-4 py-2 bg-dark-surface/80 border border-gold/40 rounded-full">
+                <span class="text-gold text-sm font-heading tracking-widest uppercase">⭐ 4.5 Rating · 148+ Reviews · Since 2017</span>
+            </div>
+            <h1 class="font-display text-4xl sm:text-5xl md:text-7xl font-bold text-white leading-tight mb-4">
+                Precision Haircuts by<br>
+                <span class="text-gold-gradient">Professional Artists</span>
+            </h1>
+            <p class="text-lg md:text-xl text-gray-300 mb-8 max-w-2xl mx-auto font-body">
+                Experience Lahore's Top Men's Grooming Salon — Where Style Meets Mastery
+            </p>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                <a href="#booking-section" class="btn-gold px-8 py-4 rounded-full text-lg font-heading tracking-wider uppercase ripple inline-flex items-center justify-center gap-2">
+                    ✂️ Book Appointment
+                </a>
+                <a href="https://wa.me/923009406068?text=Hi%20Rishi%20Hair%20Salon!%20I'd%20like%20to%20book%20an%20appointment." target="_blank" rel="noopener" class="btn-outline-gold px-8 py-4 rounded-full text-lg font-heading tracking-wider uppercase inline-flex items-center justify-center gap-2">
+                    💬 Chat on WhatsApp
+                </a>
+            </div>
+            <div class="flex flex-wrap justify-center gap-6 mt-10 text-sm text-gray-400">
+                <span class="flex items-center gap-1">🕐 11:00 AM – 2:00 AM</span>
+                <span class="flex items-center gap-1">📍 Gulberg III, Lahore</span>
+                <span class="flex items-center gap-1">📞 +92 300 9406068</span>
+            </div>
+        </div>
+        <div class="absolute bottom-8 left-1/2 -translate-x-1/2 z-20 animate-bounce">
+            <svg class="w-8 h-8 text-gold" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"/></svg>
+        </div>
+    </section>
+
+    <!-- BRAND AUTHORITY SECTION unchanged -->
+    <section class="py-16 md:py-20 bg-black-soft relative">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6 text-center">
+                <div class="card-premium rounded-2xl p-8 animate-slide-up">
+                    <div class="text-4xl mb-3">⭐</div>
+                    <div class="text-4xl font-display font-bold text-gold mb-2">4.5</div>
+                    <p class="text-gray-400">Average Rating</p>
+                    <p class="text-sm text-gray-500 mt-1">Based on 148+ Google Reviews</p>
+                </div>
+                <div class="card-premium rounded-2xl p-8 animate-slide-up" style="animation-delay: 0.15s;">
+                    <div class="text-4xl mb-3">🏆</div>
+                    <div class="text-4xl font-display font-bold text-gold mb-2">2017</div>
+                    <p class="text-gray-400">Serving Since</p>
+                    <p class="text-sm text-gray-500 mt-1">7+ Years of Excellence</p>
+                </div>
+                <div class="card-premium rounded-2xl p-8 animate-slide-up" style="animation-delay: 0.3s;">
+                    <div class="text-4xl mb-3">👥</div>
+                    <div class="text-4xl font-display font-bold text-gold mb-2">10K+</div>
+                    <p class="text-gray-400">Happy Customers</p>
+                    <p class="text-sm text-gray-500 mt-1">Loyal Clientele Across Lahore</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="section-divider"></div>
+
+    <!-- SERVICES PREVIEW unchanged -->
+    <section class="py-16 md:py-20 bg-black-rich">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <p class="text-gold font-heading tracking-widest uppercase text-sm mb-2">Our Expertise</p>
+                <h2 class="font-display text-3xl md:text-5xl font-bold text-white mb-4">Premium Grooming Services</h2>
+                <p class="text-gray-400 max-w-xl mx-auto">From classic cuts to modern fades, our artists deliver precision and style.</p>
+            </div>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                <div class="card-premium rounded-2xl p-6 text-center group">
+                    <div class="w-20 h-20 mx-auto mb-4 rounded-full bg-dark-elevated flex items-center justify-center border border-dark-border group-hover:border-gold transition-all duration-400">
+                        <span class="text-4xl service-icon">✂️</span>
+                    </div>
+                    <h3 class="font-heading text-xl text-white mb-2">Haircut & Styling</h3>
+                    <p class="text-gray-400 text-sm mb-3">Precision cuts tailored to your face shape and style preference.</p>
+                    <span class="text-gold font-bold">~45 min</span>
+                </div>
+                <div class="card-premium rounded-2xl p-6 text-center group">
+                    <div class="w-20 h-20 mx-auto mb-4 rounded-full bg-dark-elevated flex items-center justify-center border border-dark-border group-hover:border-gold transition-all duration-400">
+                        <span class="text-4xl service-icon">🪒</span>
+                    </div>
+                    <h3 class="font-heading text-xl text-white mb-2">Fade Cut</h3>
+                    <p class="text-gray-400 text-sm mb-3">Skin fades, low fades, mid fades — executed with surgical precision.</p>
+                    <span class="text-gold font-bold">~50 min</span>
+                </div>
+                <div class="card-premium rounded-2xl p-6 text-center group">
+                    <div class="w-20 h-20 mx-auto mb-4 rounded-full bg-dark-elevated flex items-center justify-center border border-dark-border group-hover:border-gold transition-all duration-400">
+                        <span class="text-4xl service-icon">🧔</span>
+                    </div>
+                    <h3 class="font-heading text-xl text-white mb-2">Beard Grooming</h3>
+                    <p class="text-gray-400 text-sm mb-3">Expert beard shaping, trimming, and hot towel treatment.</p>
+                    <span class="text-gold font-bold">~35 min</span>
+                </div>
+                <div class="card-premium rounded-2xl p-6 text-center group">
+                    <div class="w-20 h-20 mx-auto mb-4 rounded-full bg-dark-elevated flex items-center justify-center border border-dark-border group-hover:border-gold transition-all duration-400">
+                        <span class="text-4xl service-icon">💆</span>
+                    </div>
+                    <h3 class="font-heading text-xl text-white mb-2">Keratin Treatment</h3>
+                    <p class="text-gray-400 text-sm mb-3">Smooth, frizz-free hair with professional-grade keratin therapy.</p>
+                    <span class="text-gold font-bold">~90 min</span>
+                </div>
+            </div>
+            <div class="text-center mt-8">
+                <a href="#services-section" class="btn-outline-gold px-6 py-3 rounded-full inline-flex items-center gap-2 font-heading tracking-wider uppercase text-sm">
+                    View All Services →
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- BEFORE/AFTER unchanged -->
+    <section class="py-16 md:py-20 bg-black-soft">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <p class="text-gold font-heading tracking-widest uppercase text-sm mb-2">Transformations</p>
+                <h2 class="font-display text-3xl md:text-5xl font-bold text-white mb-4">Before & After Results</h2>
+                <p class="text-gray-400 max-w-xl mx-auto">See the difference our artists make. Real results, real confidence.</p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div class="card-premium rounded-2xl overflow-hidden group"><div class="relative h-72"><img src="https://iili.io/BiUh4bR.png" alt="Before after haircut 1" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"><div class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 to-transparent p-4"><span class="text-gold font-heading text-sm">Classic Fade Transformation</span></div></div></div>
+                <div class="card-premium rounded-2xl overflow-hidden group"><div class="relative h-72"><img src="https://iili.io/BiUhQft.png" alt="Before after haircut 2" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"><div class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 to-transparent p-4"><span class="text-gold font-heading text-sm">Beard Grooming Result</span></div></div></div>
+                <div class="card-premium rounded-2xl overflow-hidden group"><div class="relative h-72"><img src="https://iili.io/BiUhZ0X.png" alt="Before after haircut 3" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"><div class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 to-transparent p-4"><span class="text-gold font-heading text-sm">Modern Styling</span></div></div></div>
+                <div class="card-premium rounded-2xl overflow-hidden group"><div class="relative h-72"><img src="https://iili.io/BiUhbJs.png" alt="Before after haircut 4" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"><div class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 to-transparent p-4"><span class="text-gold font-heading text-sm">Skin Fade Excellence</span></div></div></div>
+                <div class="card-premium rounded-2xl overflow-hidden group"><div class="relative h-72"><img src="https://iili.io/BiUhm5G.png" alt="Before after haircut 5" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"><div class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 to-transparent p-4"><span class="text-gold font-heading text-sm">Complete Makeover</span></div></div></div>
+                <div class="card-premium rounded-2xl overflow-hidden group"><div class="relative h-72"><img src="https://iili.io/BiUj3q7.png" alt="Before after haircut 6" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"><div class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 to-transparent p-4"><span class="text-gold font-heading text-sm">Precision Haircut</span></div></div></div>
+            </div>
+        </div>
+    </section>
+
+    <div class="section-divider"></div>
+
+    <!-- SERVICES PAGE unchanged -->
+    <section id="services-section" class="py-16 md:py-20 bg-black-rich">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <p class="text-gold font-heading tracking-widest uppercase text-sm mb-2">Menu</p>
+                <h2 class="font-display text-3xl md:text-5xl font-bold text-white mb-4">All Services & Pricing</h2>
+                <p class="text-gray-400 max-w-xl mx-auto">Transparent pricing for every service. Quality guaranteed.</p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div class="card-premium rounded-2xl p-7 relative overflow-hidden group"><div class="absolute top-0 right-0 w-24 h-24 bg-gold/10 rounded-bl-full -mr-4 -mt-4 group-hover:bg-gold/20 transition-all"></div><span class="text-5xl mb-4 block">✂️</span><h3 class="font-heading text-2xl text-white mb-2">Haircut</h3><p class="text-gray-400 text-sm mb-3">Complete haircut with washing, blow-dry, and styling tailored to your look.</p><div class="flex items-center gap-4 text-sm text-gray-500 mb-4"><span>⏱ ~45 min</span></div><div class="flex items-center justify-between"><span class="text-gold font-display text-2xl font-bold">PKR 1,500</span><a href="#booking-section" class="text-gold text-sm font-heading tracking-wider hover:underline">Book →</a></div></div>
+                <div class="card-premium rounded-2xl p-7 relative overflow-hidden group"><div class="absolute top-0 right-0 w-24 h-24 bg-gold/10 rounded-bl-full -mr-4 -mt-4 group-hover:bg-gold/20 transition-all"></div><span class="text-5xl mb-4 block">🪒</span><h3 class="font-heading text-2xl text-white mb-2">Fade Cut</h3><p class="text-gray-400 text-sm mb-3">Skin fade, low fade, mid fade, or high fade — blended to perfection.</p><div class="flex items-center gap-4 text-sm text-gray-500 mb-4"><span>⏱ ~50 min</span></div><div class="flex items-center justify-between"><span class="text-gold font-display text-2xl font-bold">PKR 2,000</span><a href="#booking-section" class="text-gold text-sm font-heading tracking-wider hover:underline">Book →</a></div></div>
+                <div class="card-premium rounded-2xl p-7 relative overflow-hidden group"><div class="absolute top-0 right-0 w-24 h-24 bg-gold/10 rounded-bl-full -mr-4 -mt-4 group-hover:bg-gold/20 transition-all"></div><span class="text-5xl mb-4 block">🧔</span><h3 class="font-heading text-2xl text-white mb-2">Beard Styling</h3><p class="text-gray-400 text-sm mb-3">Expert beard trimming, shaping, hot towel treatment, and balm application.</p><div class="flex items-center gap-4 text-sm text-gray-500 mb-4"><span>⏱ ~35 min</span></div><div class="flex items-center justify-between"><span class="text-gold font-display text-2xl font-bold">PKR 1,200</span><a href="#booking-section" class="text-gold text-sm font-heading tracking-wider hover:underline">Book →</a></div></div>
+                <div class="card-premium rounded-2xl p-7 relative overflow-hidden group"><div class="absolute top-0 right-0 w-24 h-24 bg-gold/10 rounded-bl-full -mr-4 -mt-4 group-hover:bg-gold/20 transition-all"></div><span class="text-5xl mb-4 block">💆</span><h3 class="font-heading text-2xl text-white mb-2">Keratin Treatment</h3><p class="text-gray-400 text-sm mb-3">Professional keratin therapy for smooth, manageable, and frizz-free hair.</p><div class="flex items-center gap-4 text-sm text-gray-500 mb-4"><span>⏱ ~90 min</span></div><div class="flex items-center justify-between"><span class="text-gold font-display text-2xl font-bold">PKR 4,500</span><a href="#booking-section" class="text-gold text-sm font-heading tracking-wider hover:underline">Book →</a></div></div>
+                <div class="card-premium rounded-2xl p-7 relative overflow-hidden group"><div class="absolute top-0 right-0 w-24 h-24 bg-gold/10 rounded-bl-full -mr-4 -mt-4 group-hover:bg-gold/20 transition-all"></div><span class="text-5xl mb-4 block">🎨</span><h3 class="font-heading text-2xl text-white mb-2">Hair Color</h3><p class="text-gray-400 text-sm mb-3">Full color, highlights, or grey coverage using premium salon-grade products.</p><div class="flex items-center gap-4 text-sm text-gray-500 mb-4"><span>⏱ ~75 min</span></div><div class="flex items-center justify-between"><span class="text-gold font-display text-2xl font-bold">PKR 3,000</span><a href="#booking-section" class="text-gold text-sm font-heading tracking-wider hover:underline">Book →</a></div></div>
+                <div class="card-premium rounded-2xl p-7 relative overflow-hidden group border-gold-glow"><div class="absolute top-0 right-0 w-24 h-24 bg-gold/20 rounded-bl-full -mr-4 -mt-4"></div><span class="text-5xl mb-4 block">👑</span><h3 class="font-heading text-2xl text-white mb-2">Royal Combo</h3><p class="text-gray-400 text-sm mb-3">Haircut + Beard Grooming + Hot Towel — the complete Rishi experience.</p><div class="flex items-center gap-4 text-sm text-gray-500 mb-4"><span>⏱ ~75 min</span></div><div class="flex items-center justify-between"><span class="text-gold font-display text-2xl font-bold">PKR 2,500</span><a href="#booking-section" class="text-gold text-sm font-heading tracking-wider hover:underline">Book →</a></div></div>
+            </div>
+            <p class="text-center text-gray-500 text-xs mt-6">* Prices are approximate and may vary. Contact us for exact pricing.</p>
+        </div>
+    </section>
+
+    <div class="section-divider"></div>
+
+    <!-- PERSONAL BRAND SECTION unchanged -->
+    <section id="brand-section" class="py-16 md:py-20 bg-black-soft">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <p class="text-gold font-heading tracking-widest uppercase text-sm mb-2">Meet The Artists</p>
+                <h2 class="font-display text-3xl md:text-5xl font-bold text-white mb-4">The Faces Behind The Craft</h2>
+            </div>
+            <div class="card-premium rounded-3xl p-6 md:p-10 mb-8 flex flex-col md:flex-row items-center gap-8 border-gold-glow">
+                <div class="w-40 h-40 md:w-56 md:h-56 rounded-2xl overflow-hidden flex-shrink-0 border-2 border-gold" style="box-shadow: 0 0 40px rgba(212,175,55,0.3);">
+                    <img src="https://iili.io/BiUjB5b.png" alt="Rishi - Professional Hair Artist" class="w-full h-full object-cover">
+                </div>
+                <div class="text-center md:text-left">
+                    <div class="inline-block bg-gold/20 text-gold px-3 py-1 rounded-full text-xs font-heading tracking-wider mb-3">Lead Artist & Owner</div>
+                    <h3 class="font-display text-3xl md:text-4xl font-bold text-white mb-2">Rishi</h3>
+                    <p class="text-gold font-heading text-lg tracking-wider mb-3">Professional Hair Artist</p>
+                    <p class="text-gray-300 leading-relaxed mb-3 max-w-xl">
+                        With <strong class="text-white">years of experience</strong> and a passion for precision, Rishi has built a loyal clientele since 2017. Known for his meticulous attention to detail and ability to transform any look, he leads the team with artistry and dedication. Every haircut is a masterpiece.
+                    </p>
+                    <p class="text-gray-400 text-sm">🏆 Trusted by <strong class="text-gold">10,000+ clients</strong> across Lahore</p>
+                </div>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div class="card-premium rounded-2xl p-6 flex items-center gap-5 group">
+                    <div class="w-24 h-24 rounded-xl overflow-hidden flex-shrink-0 border border-dark-border group-hover:border-gold transition-all"><img src="https://iili.io/BiUjxzQ.png" alt="Peter - Senior Stylist" class="w-full h-full object-cover"></div>
+                    <div><h4 class="font-heading text-xl text-white">Peter</h4><p class="text-gold text-sm font-heading tracking-wider">Senior Stylist</p><p class="text-gray-400 text-sm mt-1">Specialist in modern fades and textured cuts. Known for his friendly approach and consistent results.</p></div>
+                </div>
+                <div class="card-premium rounded-2xl p-6 flex items-center gap-5 group">
+                    <div class="w-24 h-24 rounded-xl overflow-hidden flex-shrink-0 border border-dark-border group-hover:border-gold transition-all"><img src="https://iili.io/BiUhUJa.png" alt="Billa - Beard Specialist" class="w-full h-full object-cover"></div>
+                    <div><h4 class="font-heading text-xl text-white">Billa</h4><p class="text-gold text-sm font-heading tracking-wider">Beard Specialist</p><p class="text-gray-400 text-sm mt-1">Master of beard sculpting and hot towel shaves. Precision and care in every stroke.</p></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="section-divider"></div>
+
+    <!-- REVIEWS unchanged -->
+    <section id="reviews-section" class="py-16 md:py-20 bg-black-rich">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <p class="text-gold font-heading tracking-widest uppercase text-sm mb-2">Testimonials</p>
+                <h2 class="font-display text-3xl md:text-5xl font-bold text-white mb-4">What Our Clients Say</h2>
+                <div class="flex items-center justify-center gap-2 mb-2"><span class="text-2xl star-gold">⭐</span><span class="text-2xl star-gold">⭐</span><span class="text-2xl star-gold">⭐</span><span class="text-2xl star-gold">⭐</span><span class="text-2xl star-gold">⭐</span><span class="text-gold font-bold ml-2">4.5</span><span class="text-gray-400 text-sm">(148 Reviews)</span></div>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div class="card-premium rounded-2xl p-6"><div class="flex gap-1 mb-3">⭐⭐⭐⭐⭐</div><p class="text-gray-200 mb-4 italic">"Skilled and professional — Rishi knows exactly what suits you. I've been coming here for 3 years and never been disappointed."</p><div class="flex items-center gap-3"><div class="w-10 h-10 rounded-full bg-dark-elevated flex items-center justify-center font-bold text-gold">A</div><div><p class="text-white font-semibold text-sm">Ahmed K.</p><p class="text-gray-500 text-xs">Loyal Customer since 2021</p></div></div></div>
+                <div class="card-premium rounded-2xl p-6"><div class="flex gap-1 mb-3">⭐⭐⭐⭐⭐</div><p class="text-gray-200 mb-4 italic">"Friendly and cooperative staff. Peter gave me the best fade I've ever had. Highly recommended!"</p><div class="flex items-center gap-3"><div class="w-10 h-10 rounded-full bg-dark-elevated flex items-center justify-center font-bold text-gold">S</div><div><p class="text-white font-semibold text-sm">Saad R.</p><p class="text-gray-500 text-xs">Regular Client</p></div></div></div>
+                <div class="card-premium rounded-2xl p-6"><div class="flex gap-1 mb-3">⭐⭐⭐⭐⭐</div><p class="text-gray-200 mb-4 italic">"Great experience overall. The ambiance is premium and the service is top-notch. Worth every rupee."</p><div class="flex items-center gap-3"><div class="w-10 h-10 rounded-full bg-dark-elevated flex items-center justify-center font-bold text-gold">U</div><div><p class="text-white font-semibold text-sm">Usman M.</p><p class="text-gray-500 text-xs">Verified Reviewer</p></div></div></div>
+                <div class="card-premium rounded-2xl p-6 opacity-80"><div class="flex gap-1 mb-3">⭐⭐⭐</div><p class="text-gray-300 mb-4 italic">"The haircut quality is excellent and Rishi is truly skilled. However, the waiting time can be long during peak hours. I'd recommend booking ahead."</p><div class="flex items-center gap-3"><div class="w-10 h-10 rounded-full bg-dark-elevated flex items-center justify-center font-bold text-gray-400">B</div><div><p class="text-white font-semibold text-sm">Bilal H.</p><p class="text-gray-500 text-xs">Occasional Visitor</p></div></div></div>
+                <div class="card-premium rounded-2xl p-6 opacity-80"><div class="flex gap-1 mb-3">⭐⭐⭐⭐</div><p class="text-gray-300 mb-4 italic">"Good service and friendly team. Hygiene could be slightly improved — overall a solid 4-star experience. Will return."</p><div class="flex items-center gap-3"><div class="w-10 h-10 rounded-full bg-dark-elevated flex items-center justify-center font-bold text-gray-400">Z</div><div><p class="text-white font-semibold text-sm">Zain T.</p><p class="text-gray-500 text-xs">First-time Client</p></div></div></div>
+                <div class="card-premium rounded-2xl p-6"><div class="flex gap-1 mb-3">⭐⭐⭐⭐⭐</div><p class="text-gray-200 mb-4 italic">"Billa's beard work is phenomenal. The hot towel treatment is so relaxing. My go-to place for grooming."</p><div class="flex items-center gap-3"><div class="w-10 h-10 rounded-full bg-dark-elevated flex items-center justify-center font-bold text-gold">F</div><div><p class="text-white font-semibold text-sm">Fahad I.</p><p class="text-gray-500 text-xs">Regular since 2022</p></div></div></div>
+            </div>
+        </div>
+    </section>
+
+    <div class="section-divider"></div>
+
+    <!-- BOOKING unchanged -->
+    <section id="booking-section" class="py-16 md:py-20 bg-black-soft">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-10">
+                <p class="text-gold font-heading tracking-widest uppercase text-sm mb-2">Reserve Your Slot</p>
+                <h2 class="font-display text-3xl md:text-5xl font-bold text-white mb-4">Book Your Appointment</h2>
+                <p class="text-gray-400">Fill the form below or chat with us on WhatsApp to confirm instantly.</p>
+                <div class="inline-block mt-4 bg-dark-elevated border border-yellow-700/50 rounded-lg px-4 py-3 text-sm text-yellow-400">
+                    ⚠️ <strong>Appointments recommended</strong> to avoid delays during peak hours (5 PM – 10 PM)
+                </div>
+            </div>
+            <div class="card-premium rounded-3xl p-6 md:p-10 border-gold-glow">
+                <form id="booking-form" class="space-y-5" onsubmit="handleBookingSubmit(event)">
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
+                        <div><label class="block text-gray-300 font-body text-sm mb-2">Full Name *</label><input type="text" id="booking-name" required placeholder="Your name" class="w-full bg-dark-elevated border border-dark-border rounded-xl px-4 py-3 text-white placeholder-gray-500 focus:border-gold focus:outline-none focus:ring-1 focus:ring-gold transition-all"></div>
+                        <div><label class="block text-gray-300 font-body text-sm mb-2">Phone Number *</label><input type="tel" id="booking-phone" required placeholder="+92 3XX XXXXXXX" class="w-full bg-dark-elevated border border-dark-border rounded-xl px-4 py-3 text-white placeholder-gray-500 focus:border-gold focus:outline-none focus:ring-1 focus:ring-gold transition-all"></div>
+                    </div>
+                    <div><label class="block text-gray-300 font-body text-sm mb-2">Select Service *</label><select id="booking-service" required class="w-full bg-dark-elevated border border-dark-border rounded-xl px-4 py-3 text-white focus:border-gold focus:outline-none focus:ring-1 focus:ring-gold transition-all appearance-none" style="background-image: url('data:image/svg+xml;utf8,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%2220%22 height=%2220%22 fill=%22%23D4AF37%22 viewBox=%220 0 20 20%22><path d=%22M5 8l5 5 5-5z%22/></svg>'); background-repeat: no-repeat; background-position: right 12px center;"><option value="" disabled selected class="bg-dark-elevated">Choose a service</option><option value="Haircut" class="bg-dark-elevated">Haircut — PKR 1,500 (~45 min)</option><option value="Fade Cut" class="bg-dark-elevated">Fade Cut — PKR 2,000 (~50 min)</option><option value="Beard Styling" class="bg-dark-elevated">Beard Styling — PKR 1,200 (~35 min)</option><option value="Keratin Treatment" class="bg-dark-elevated">Keratin Treatment — PKR 4,500 (~90 min)</option><option value="Hair Color" class="bg-dark-elevated">Hair Color — PKR 3,000 (~75 min)</option><option value="Royal Combo" class="bg-dark-elevated">Royal Combo — PKR 2,500 (~75 min)</option></select></div>
+                    <div><label class="block text-gray-300 font-body text-sm mb-2">Preferred Date & Time</label><input type="datetime-local" id="booking-time" class="w-full bg-dark-elevated border border-dark-border rounded-xl px-4 py-3 text-white focus:border-gold focus:outline-none focus:ring-1 focus:ring-gold transition-all" style="color-scheme: dark;"></div>
+                    <button type="submit" class="btn-gold w-full py-4 rounded-xl text-lg font-heading tracking-wider uppercase ripple flex items-center justify-center gap-2">✂️ Confirm Booking</button>
+                    <p class="text-center text-gray-500 text-xs">You'll be redirected to WhatsApp to confirm your appointment.</p>
+                </form>
+                <div class="text-center mt-6">
+                    <a href="https://wa.me/923009406068?text=Hi%20Rishi%20Hair%20Salon!%20I'd%20like%20to%20book%20an%20appointment." target="_blank" rel="noopener" class="btn-outline-gold px-6 py-3 rounded-full inline-flex items-center gap-2 font-heading tracking-wider uppercase text-sm">
+                        💬 Or Book Directly on WhatsApp
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="section-divider"></div>
+
+    <!-- MAP & CONTACT unchanged -->
+    <section id="contact-section" class="py-16 md:py-20 bg-black-rich">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-10"><p class="text-gold font-heading tracking-widest uppercase text-sm mb-2">Find Us</p><h2 class="font-display text-3xl md:text-5xl font-bold text-white mb-4">Visit Our Salon</h2></div>
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+                <div class="card-premium rounded-2xl overflow-hidden h-80 md:h-96"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3401.8!2d74.35!3d31.52!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2sCenter+Point+Plaza+Gulberg+III+Lahore!5e0!3m2!1sen!2s!4v1690000000000" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Rishi Hair Salon Location - Gulberg III Lahore"></iframe></div>
+                <div class="space-y-5">
+                    <div class="card-premium rounded-2xl p-6"><h3 class="font-heading text-xl text-white mb-4">📍 Address</h3><p class="text-gray-300">Shop-17, Ground Floor, Center Point Plaza,<br>Block E2 Gulberg III, Lahore, Pakistan</p><a href="https://maps.app.goo.gl/zq6sNXimMLJKkfpV7" target="_blank" rel="noopener" class="btn-outline-gold px-5 py-2 rounded-full inline-flex items-center gap-2 mt-4 text-sm font-heading tracking-wider">🗺 Get Directions</a></div>
+                    <div class="card-premium rounded-2xl p-6"><h3 class="font-heading text-xl text-white mb-4">🕐 Business Hours</h3><div class="space-y-2 text-gray-300"><p class="flex justify-between"><span>Monday – Sunday</span> <span class="text-gold font-bold">11:00 AM – 2:00 AM</span></p><p class="text-sm text-gray-500 mt-2">✨ Open late — perfect for evening grooming!</p></div></div>
+                    <div class="card-premium rounded-2xl p-6"><h3 class="font-heading text-xl text-white mb-4">📞 Quick Connect</h3><div class="flex flex-wrap gap-3"><a href="tel:+923009406068" class="btn-gold px-5 py-3 rounded-full font-heading tracking-wider text-sm flex items-center gap-2 ripple">📞 Call Now</a><a href="https://wa.me/923009406068?text=Hi%20Rishi%20Hair%20Salon!" target="_blank" rel="noopener" class="btn-outline-gold px-5 py-3 rounded-full font-heading tracking-wider text-sm flex items-center gap-2">💬 WhatsApp</a></div></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SOCIAL unchanged -->
+    <section class="py-12 bg-black-soft">
+        <div class="max-w-4xl mx-auto px-4 text-center">
+            <p class="text-gold font-heading tracking-widest uppercase text-sm mb-4">Follow Us</p>
+            <div class="flex justify-center gap-6 flex-wrap">
+                <a href="https://www.facebook.com/rishikhairsalon/" target="_blank" rel="noopener" class="card-premium rounded-xl px-6 py-4 flex items-center gap-3 hover:border-gold transition-all group"><span class="text-2xl">📘</span><span class="text-gray-300 group-hover:text-gold transition-colors font-heading tracking-wider">Facebook</span></a>
+                <a href="https://www.instagram.com/rishi_thebarber" target="_blank" rel="noopener" class="card-premium rounded-xl px-6 py-4 flex items-center gap-3 hover:border-gold transition-all group"><span class="text-2xl">📸</span><span class="text-gray-300 group-hover:text-gold transition-colors font-heading tracking-wider">Instagram</span></a>
+                <a href="https://www.tiktok.com/@rishikhokhar1" target="_blank" rel="noopener" class="card-premium rounded-xl px-6 py-4 flex items-center gap-3 hover:border-gold transition-all group"><span class="text-2xl">🎵</span><span class="text-gray-300 group-hover:text-gold transition-colors font-heading tracking-wider">TikTok</span></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER unchanged -->
+    <footer class="py-10 bg-black-rich border-t border-dark-border">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <p class="font-display text-2xl font-bold text-gold mb-2">Rishi Hair Salon</p>
+            <p class="text-gray-500 text-sm mb-1">رشی ہیئر سلون</p>
+            <p class="text-gray-500 text-xs">Shop-17, Center Point Plaza, Block E2 Gulberg III, Lahore</p>
+            <p class="text-gray-600 text-xs mt-4">© 2024 Rishi Hair Salon. All rights reserved. | Best Barber in Lahore</p>
+        </div>
+    </footer>
+
+    <!-- REMOVED desktop sticky buttons completely. Only chatbot remains as floating element -->
+    <!-- Mobile sticky bar now shows ONLY WhatsApp button (call and book removed) -->
+    <div class="mobile-sticky-bar">
+        <a href="https://wa.me/923009406068?text=Hi%20Rishi%20Hair%20Salon!%20I'd%20like%20to%20book." target="_blank" rel="noopener" class="w-full bg-green-500 text-white py-3 rounded-xl text-center font-heading tracking-wider text-sm flex items-center justify-center gap-2">
+            💬 Chat on WhatsApp
+        </a>
+    </div>
+
+    <!-- AI CHATBOT unchanged -->
+    <div id="chatbot-container" class="fixed bottom-24 right-6 z-[950] md:bottom-28 md:right-6">
+        <div id="chatbot-window" class="hidden absolute bottom-20 right-0 w-80 sm:w-96 bg-dark-surface border border-dark-border rounded-2xl shadow-2xl overflow-hidden" style="box-shadow: 0 20px 60px rgba(0,0,0,0.7), 0 0 30px rgba(212,175,55,0.15);">
+            <div class="bg-dark-elevated border-b border-dark-border p-4 flex items-center gap-3">
+                <div class="w-10 h-10 rounded-full bg-gold/20 flex items-center justify-center text-xl">💈</div>
+                <div><p class="text-white font-heading text-sm tracking-wider">Rishi Hair Salon</p><p class="text-green-400 text-xs flex items-center gap-1"><span class="w-2 h-2 bg-green-400 rounded-full inline-block"></span> Online</p></div>
+                <button onclick="toggleChatbot()" class="ml-auto text-gray-400 hover:text-white text-xl">&times;</button>
+            </div>
+            <div id="chat-messages" class="p-4 h-72 overflow-y-auto space-y-3 bg-dark-surface">
+                <div class="flex gap-2">
+                    <div class="w-8 h-8 rounded-full bg-gold/30 flex items-center justify-center text-sm flex-shrink-0">💈</div>
+                    <div class="bg-dark-elevated rounded-2xl rounded-tl-sm px-4 py-2 text-sm text-gray-200 max-w-[80%]">
+                        <p>Hey there! 😎 Welcome to <strong class="text-gold">Rishi Hair Salon</strong>. How can I help you today?</p>
+                        <div class="flex flex-wrap gap-2 mt-2">
+                            <button onclick="sendQuickReply('Haircut price?')" class="text-xs bg-dark-border text-gray-300 px-3 py-1 rounded-full hover:bg-gold hover:text-black-rich transition-all">💰 Haircut price?</button>
+                            <button onclick="sendQuickReply('Open timing?')" class="text-xs bg-dark-border text-gray-300 px-3 py-1 rounded-full hover:bg-gold hover:text-black-rich transition-all">🕐 Open timing?</button>
+                            <button onclick="sendQuickReply('Location?')" class="text-xs bg-dark-border text-gray-300 px-3 py-1 rounded-full hover:bg-gold hover:text-black-rich transition-all">📍 Location?</button>
+                            <button onclick="sendQuickReply('Book appointment')" class="text-xs bg-dark-border text-gray-300 px-3 py-1 rounded-full hover:bg-gold hover:text-black-rich transition-all">📅 Book now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="p-3 border-t border-dark-border bg-dark-elevated flex gap-2">
+                <input type="text" id="chat-input" placeholder="Type a message..." class="flex-1 bg-dark-surface border border-dark-border rounded-xl px-3 py-2 text-sm text-white placeholder-gray-500 focus:border-gold focus:outline-none" onkeypress="if(event.key==='Enter')sendUserMessage()">
+                <button onclick="sendUserMessage()" class="bg-gold text-black-rich rounded-xl px-4 py-2 font-bold text-sm hover:bg-gold-light transition-colors">Send</button>
+            </div>
+        </div>
+        <button onclick="toggleChatbot()" class="w-14 h-14 rounded-full bg-gold text-black-rich flex items-center justify-center text-2xl shadow-lg chatbot-float relative" title="Chat with us" aria-label="Open Chat">
+            💈
+            <span class="absolute -top-1 -right-1 w-4 h-4 bg-green-400 rounded-full border-2 border-black-rich"></span>
+        </button>
+    </div>
+
+    <!-- SCRIPTS unchanged -->
+    <script>
+        function toggleMobileMenu() {
+            const menu = document.getElementById('mobile-menu');
+            const icon = document.getElementById('menu-icon');
+            if (menu.classList.contains('hidden')) {
+                menu.classList.remove('hidden');
+                icon.textContent = '✕';
+            } else {
+                menu.classList.add('hidden');
+                icon.textContent = '☰';
+            }
+        }
+
+        function closeLoyaltyPopup() {
+            const popup = document.getElementById('loyalty-popup');
+            popup.classList.add('hidden');
+            popup.classList.remove('visible');
+            sessionStorage.setItem('loyalty-popup-shown', 'true');
+        }
+
+        function showLoyaltyPopup() {
+            const popup = document.getElementById('loyalty-popup');
+            const alreadyShown = sessionStorage.getItem('loyalty-popup-shown');
+            if (!alreadyShown) {
+                setTimeout(() => {
+                    popup.classList.remove('hidden');
+                    popup.classList.add('visible');
+                }, 4000);
+            }
+        }
+
+        function toggleChatbot() {
+            const window = document.getElementById('chatbot-window');
+            if (window.classList.contains('hidden') || !window.classList.contains('visible')) {
+                window.classList.remove('hidden');
+                window.classList.add('visible');
+            } else {
+                window.classList.add('hidden');
+                window.classList.remove('visible');
+            }
+        }
+
+        function sendQuickReply(text) {
+            const messages = document.getElementById('chat-messages');
+            const userMsg = document.createElement('div');
+            userMsg.className = 'flex gap-2 justify-end';
+            userMsg.innerHTML = `<div class="bg-gold/20 rounded-2xl rounded-tr-sm px-4 py-2 text-sm text-gray-200 max-w-[80%]"><p>${text}</p></div>`;
+            messages.appendChild(userMsg);
+
+            setTimeout(() => {
+                const reply = getAutoReply(text);
+                const botMsg = document.createElement('div');
+                botMsg.className = 'flex gap-2';
+                botMsg.innerHTML = `<div class="w-8 h-8 rounded-full bg-gold/30 flex items-center justify-center text-sm flex-shrink-0">💈</div><div class="bg-dark-elevated rounded-2xl rounded-tl-sm px-4 py-2 text-sm text-gray-200 max-w-[80%]">${reply}</div>`;
+                messages.appendChild(botMsg);
+                messages.scrollTop = messages.scrollHeight;
+            }, 500);
+            messages.scrollTop = messages.scrollHeight;
+        }
+
+        function sendUserMessage() {
+            const input = document.getElementById('chat-input');
+            const text = input.value.trim();
+            if (!text) return;
+            input.value = '';
+            sendQuickReply(text);
+        }
+
+        function getAutoReply(text) {
+            const lower = text.toLowerCase();
+            if (lower.includes('price') || lower.includes('haircut') || lower.includes('cost') || lower.includes('rate')) {
+                return `<p>Our pricing, bro! 😎</p><ul class="list-disc list-inside mt-1 space-y-1 text-xs"><li>✂️ <strong>Haircut</strong> — PKR 1,500</li><li>🪒 <strong>Fade Cut</strong> — PKR 2,000</li><li>🧔 <strong>Beard Styling</strong> — PKR 1,200</li><li>👑 <strong>Royal Combo</strong> — PKR 2,500</li></ul><p class="mt-2">Want to book? Tap below! 👇</p><a href="#booking-section" onclick="toggleChatbot()" class="inline-block mt-2 bg-gold text-black-rich px-4 py-2 rounded-full text-xs font-bold hover:bg-gold-light transition-colors">📅 Book Appointment</a>`;
+            }
+            if (lower.includes('time') || lower.includes('open') || lower.includes('hour') || lower.includes('timing')) {
+                return `<p>We're open <strong class="text-gold">EVERY DAY</strong> 🕐</p><p class="text-lg font-bold text-white mt-1">11:00 AM – 2:00 AM</p><p class="text-xs text-gray-400 mt-1">Yes, we're open late! Perfect for an evening fresh cut. 🌙</p><p class="mt-2">Peak hours: 5 PM – 10 PM — book ahead to avoid waiting!</p><a href="#booking-section" onclick="toggleChatbot()" class="inline-block mt-2 bg-gold text-black-rich px-4 py-2 rounded-full text-xs font-bold hover:bg-gold-light transition-colors">📅 Reserve Your Slot</a>`;
+            }
+            if (lower.includes('location') || lower.includes('address') || lower.includes('where') || lower.includes('map')) {
+                return `<p>📍 Find us at:</p><p class="font-bold text-white mt-1">Shop-17, Ground Floor,<br>Center Point Plaza,<br>Block E2 Gulberg III,<br>Lahore, Pakistan</p><a href="https://maps.app.goo.gl/zq6sNXimMLJKkfpV7" target="_blank" rel="noopener" class="inline-block mt-2 bg-dark-border text-gold px-4 py-2 rounded-full text-xs font-bold hover:bg-gold hover:text-black-rich transition-colors">🗺 Open in Google Maps</a>`;
+            }
+            if (lower.includes('book') || lower.includes('appointment') || lower.includes('reserve')) {
+                return `<p>Great choice! Let's get you booked in. 😎✂️</p><a href="#booking-section" onclick="toggleChatbot()" class="inline-block mt-2 bg-gold text-black-rich px-4 py-2 rounded-full text-xs font-bold hover:bg-gold-light transition-colors">📅 Fill Booking Form</a><p class="text-xs text-gray-400 mt-2">Or chat on WhatsApp:</p><a href="https://wa.me/923009406068?text=Hi!%20I'd%20like%20to%20book%20an%20appointment." target="_blank" rel="noopener" class="inline-block mt-1 bg-green-500 text-white px-4 py-2 rounded-full text-xs font-bold hover:bg-green-600 transition-colors">💬 WhatsApp Booking</a>`;
+            }
+            return `<p>Thanks for reaching out! 😎 I can help with:</p><div class="flex flex-wrap gap-2 mt-2"><button onclick="sendQuickReply('Haircut price?')" class="text-xs bg-dark-border text-gray-300 px-3 py-1 rounded-full hover:bg-gold hover:text-black-rich transition-all">💰 Prices</button><button onclick="sendQuickReply('Open timing?')" class="text-xs bg-dark-border text-gray-300 px-3 py-1 rounded-full hover:bg-gold hover:text-black-rich transition-all">🕐 Timings</button><button onclick="sendQuickReply('Location?')" class="text-xs bg-dark-border text-gray-300 px-3 py-1 rounded-full hover:bg-gold hover:text-black-rich transition-all">📍 Location</button><button onclick="sendQuickReply('Book appointment')" class="text-xs bg-dark-border text-gray-300 px-3 py-1 rounded-full hover:bg-gold hover:text-black-rich transition-all">📅 Book</button></div><p class="text-xs text-gray-400 mt-2">Or tap below to chat on WhatsApp 👇</p><a href="https://wa.me/923009406068?text=Hi%20Rishi%20Hair%20Salon!" target="_blank" rel="noopener" class="inline-block mt-1 bg-green-500 text-white px-4 py-2 rounded-full text-xs font-bold hover:bg-green-600 transition-colors">💬 Chat on WhatsApp</a>`;
+        }
+
+        function handleBookingSubmit(event) {
+            event.preventDefault();
+            const name = document.getElementById('booking-name').value.trim();
+            const phone = document.getElementById('booking-phone').value.trim();
+            const service = document.getElementById('booking-service').value;
+            const time = document.getElementById('booking-time').value || 'Not specified';
+            const message = `Hi Rishi Hair Salon! I'd like to book an appointment.%0A%0A👤 Name: ${name}%0A📞 Phone: ${phone}%0A✂️ Service: ${service}%0A🕐 Preferred Time: ${time}%0A%0APlease confirm my booking.`;
+            const whatsappURL = `https://wa.me/923009406068?text=${message}`;
+            alert('Redirecting to WhatsApp to confirm your booking...');
+            window.open(whatsappURL, '_blank');
+            document.getElementById('booking-form').reset();
+        }
+
+        window.addEventListener('scroll', () => {
+            const nav = document.getElementById('main-nav');
+            if (window.scrollY > 50) {
+                nav.style.background = 'rgba(10,10,10,0.95)';
+                nav.style.boxShadow = '0 4px 20px rgba(0,0,0,0.5)';
+            } else {
+                nav.style.background = 'rgba(10,10,10,0.9)';
+                nav.style.boxShadow = 'none';
+            }
+        });
+
+        document.addEventListener('DOMContentLoaded', () => {
+            showLoyaltyPopup();
+            document.getElementById('loyalty-popup').addEventListener('click', function(e) {
+                if (e.target === this) closeLoyaltyPopup();
+            });
+            document.addEventListener('keydown', function(e) {
+                if (e.key === 'Escape') {
+                    const chatbotWindow = document.getElementById('chatbot-window');
+                    if (chatbotWindow.classList.contains('visible')) {
+                        chatbotWindow.classList.add('hidden');
+                        chatbotWindow.classList.remove('visible');
+                    }
+                }
+            });
+        });
+    </script>
+</body>
+</html>
